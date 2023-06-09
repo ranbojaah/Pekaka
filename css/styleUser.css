@@ -789,13 +789,14 @@ section {
 }
 
 .form-container form {
-	background-color: white;
+	background-color: rgb(255, 202, 123);
 	border-radius: 20px;
 	margin: 0 auto;
 	max-width: 50rem;
 	padding: 2rem;
 	text-align: center;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+	outline: #621708 solid;
 }
 
 .form-container form h1 {
@@ -1042,6 +1043,12 @@ section {
 
 	.header .flex .navbar.active {
 		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+	}
+	.footer .grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(15rem, 0.5fr));
+		gap: 1rem;
+		align-items: flex-start;
 	}
 }
 

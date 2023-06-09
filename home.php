@@ -46,33 +46,33 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <span>order online</span>
-               <h3>delicious pizza</h3>
+               <h3>Indomie Goreng</h3>
                <a href="menu.php" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-1.png" alt="">
+               <img src="images/indomie-mi-goreng-special_detail_094906814 (1).png" alt="">
             </div>
          </div>
 
          <div class="swiper-slide slide">
             <div class="content">
                <span>order online</span>
-               <h3>chezzy hamburger</h3>
+               <h3>Seblak</h3>
                <a href="menu.php" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-2.png" alt="">
+               <img src="images/seblak (1).png" alt="">
             </div>
          </div>
 
          <div class="swiper-slide slide">
             <div class="content">
                <span>order online</span>
-               <h3>rosted chicken</h3>
+               <h3>Jus Mangga</h3>
                <a href="menu.php" class="btn">see menus</a>
             </div>
             <div class="image">
-               <img src="images/home-img-3.png" alt="">
+               <img src="images/mangga.png" alt="">
             </div>
          </div>
 
@@ -140,7 +140,7 @@ include 'components/add_cart.php';
          <a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>
          <div class="name"><?= $fetch_products['name']; ?></div>
          <div class="flex">
-            <div class="price"><span>$</span><?= $fetch_products['price']; ?></div>
+            <div class="price"><span>Rp</span><?= $fetch_products['price']; ?></div>
             <input type="number" name="qty" class="qty" min="1" max="99" value="1" maxlength="2">
          </div>
       </form>
