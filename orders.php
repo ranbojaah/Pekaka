@@ -35,13 +35,13 @@ if(isset($_SESSION['user_id'])){
 <!-- header section ends -->
 
 <div class="heading">
-   <h3>orders</h3>
-   <p><a href="html.php">home</a> <span> / orders</span></p>
+   <h3>pesanan</h3>
+   <p><a href="html.php">home</a> <span> / pesanan</span></p>
 </div>
 
 <section class="orders">
 
-   <h1 class="title">your orders</h1>
+   <h1 class="title">pesanan</h1>
 
    <div class="box-container">
 
@@ -55,15 +55,15 @@ if(isset($_SESSION['user_id'])){
             while($fetch_orders = $select_orders->fetch(PDO::FETCH_ASSOC)){
    ?>
    <div class="box">
-      <p>placed on : <span><?= $fetch_orders['placed_on']; ?></span></p>
-      <p>name : <span><?= $fetch_orders['name']; ?></span></p>
+      <p>tanggal : <span><?= $fetch_orders['placed_on']; ?></span></p>
+      <p>nama : <span><?= $fetch_orders['name']; ?></span></p>
       <p>email : <span><?= $fetch_orders['email']; ?></span></p>
-      <p>number : <span><?= $fetch_orders['number']; ?></span></p>
-      <p>address : <span><?= $fetch_orders['address']; ?></span></p>
-      <p>payment method : <span><?= $fetch_orders['method']; ?></span></p>
-      <p>your orders : <span><?= $fetch_orders['total_products']; ?></span></p>
-      <p>total price : <span>Rp<?= $fetch_orders['total_price']; ?>/-</span></p>
-      <p> payment status : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; }; ?>"><?= $fetch_orders['payment_status']; ?></span> </p>
+      <p>no. hp : <span><?= $fetch_orders['number']; ?></span></p>
+      <p>kelas : <span><?= $fetch_orders['address']; ?></span></p>
+      <p>metode pembyaran : <span><?= $fetch_orders['method']; ?></span></p>
+      <p>pesanan : <span><?= $fetch_orders['total_products']; ?></span></p>
+      <p>total harga : <span>Rp<?= $fetch_orders['total_price']; ?>/-</span></p>
+      <p>status pembayaran : <span style="color:<?php if($fetch_orders['payment_status'] == 'ditunda'){ echo 'red'; }else{ echo 'green'; }; ?>"><?= $fetch_orders['payment_status']; ?></span> </p>
    </div>
    <?php
       }

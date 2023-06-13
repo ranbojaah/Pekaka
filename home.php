@@ -47,7 +47,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>order online</span>
                <h3>Indomie Goreng</h3>
-               <a href="menu.php" class="btn">see menus</a>
+               <a href="menu.php" class="btn">lihat menu</a>
             </div>
             <div class="image">
                <img src="images/indomie-mi-goreng-special_detail_094906814 (1).png" alt="">
@@ -58,7 +58,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>order online</span>
                <h3>Seblak</h3>
-               <a href="menu.php" class="btn">see menus</a>
+               <a href="menu.php" class="btn">lihat menu</a>
             </div>
             <div class="image">
                <img src="images/seblak (1).png" alt="">
@@ -69,7 +69,7 @@ include 'components/add_cart.php';
             <div class="content">
                <span>order online</span>
                <h3>Jus Mangga</h3>
-               <a href="menu.php" class="btn">see menus</a>
+               <a href="menu.php" class="btn">lihat menu</a>
             </div>
             <div class="image">
                <img src="images/mangga.png" alt="">
@@ -86,7 +86,7 @@ include 'components/add_cart.php';
 
 <section class="category">
 
-   <h1 class="title">food category</h1>
+   <h1 class="title">kategori makanan</h1>
 
    <div class="box-container">
 
@@ -97,17 +97,17 @@ include 'components/add_cart.php';
 
       <a href="category.php?category=main dish" class="box">
          <img src="images/cat-2.png" alt="">
-         <h3>main dishes</h3>
+         <h3>makanan berat</h3>
       </a>
 
       <a href="category.php?category=drinks" class="box">
          <img src="images/cat-3.png" alt="">
-         <h3>drinks</h3>
+         <h3>minuman</h3>
       </a>
 
       <a href="category.php?category=desserts" class="box">
          <img src="images/cat-4.png" alt="">
-         <h3>desserts</h3>
+         <h3>camilan</h3>
       </a>
 
    </div>
@@ -119,7 +119,7 @@ include 'components/add_cart.php';
 
 <section class="products">
 
-   <h1 class="title">latest dishes</h1>
+   <h1 class="title">makanan populer</h1>
 
    <div class="box-container">
 
